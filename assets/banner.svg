@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0c1120" />
+      <stop offset="100%" stop-color="#080c16" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Radial ambient glows -->
+    <radialGradient id="ambientCyan" cx="90%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="ambientPurple" cx="10%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.45" />
+      <circle cx="30" cy="30" r="1" fill="#38bdf8" fill-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .subtitle {
+      font-family: 'SF Mono', Consolas, 'Fira Code', Monaco, monospace;
+      font-size: 13.5px;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 0.5px;
+    }
+    .badge-text {
+      font-family: 'SF Mono', Consolas, 'Fira Code', Monaco, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #38bdf8;
+      letter-spacing: 1px;
+    }
+    .network-node {
+      fill: #38bdf8;
+      animation: pulse 3s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Base Card Background with subtle border -->
+  <rect width="900" height="230" rx="16" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="900" height="230" rx="16" fill="url(#techGrid)" />
+  <rect width="900" height="230" rx="16" fill="url(#ambientCyan)" />
+  <rect width="900" height="230" rx="16" fill="url(#ambientPurple)" />
+
+  <!-- Top accent gradient line -->
+  <path d="M 16 1.5 L 884 1.5" stroke="url(#primaryGlow)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Status / Pill Badge -->
+  <g transform="translate(60, 36)">
+    <rect width="210" height="26" rx="13" fill="#0f172a" stroke="url(#badgeBorder)" stroke-width="1" />
+    <circle cx="14" cy="13" r="4" fill="#10b981" />
+    <circle cx="14" cy="13" r="8" fill="#10b981" fill-opacity="0.25" />
+    <text x="28" y="17" class="badge-text">STATUS: ACTIVE BUILDER</text>
+  </g>
+
+  <!-- Main Hero Titles -->
+  <g transform="translate(60, 105)">
+    <text x="0" y="0" class="title">Maxime <tspan fill="#64748b" font-weight="400">/ Clickdroit</tspan></text>
+    <text x="0" y="32" class="subtitle">Software Engineering • Distributed Backends • Networks &amp; Security</text>
+  </g>
+
+  <!-- Terminal Command Line Prompt at Bottom -->
+  <g transform="translate(60, 180)">
+    <rect width="470" height="30" rx="6" fill="#0a0f1d" stroke="#1e293b" stroke-width="1" />
+    <text x="14" y="20" font-family="'SF Mono', Consolas, 'Fira Code', monospace" font-size="12" fill="#38bdf8">&gt;_</text>
+    <text x="36" y="20" font-family="'SF Mono', Consolas, 'Fira Code', monospace" font-size="12" fill="#cbd5e1">systems.deploy(<tspan fill="#a78bfa">target</tspan>=<tspan fill="#34d399">"resilient-backends"</tspan>)</text>
+    <rect x="365" y="10" width="7" height="14" fill="#38bdf8" fill-opacity="0.7">
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Abstract Network Topology Graphic (Right Side) -->
+  <g transform="translate(650, 40)" opacity="0.85">
+    <!-- Connecting Edges -->
+    <path d="M 40 40 L 110 20 L 180 50 L 150 110 L 80 130 L 40 40 Z" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="3 3" />
+    <path d="M 110 20 L 150 110" fill="none" stroke="#475569" stroke-width="1.2" />
+    <path d="M 40 40 L 180 50" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5" />
+    <path d="M 110 75 L 80 130" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.6" />
+
+    <!-- Central Node -->
+    <circle cx="110" cy="75" r="16" fill="#0f172a" stroke="#8b5cf6" stroke-width="2" />
+    <circle cx="110" cy="75" r="6" fill="#8b5cf6" />
+    <circle cx="110" cy="75" r="24" fill="none" stroke="#8b5cf6" stroke-opacity="0.25" stroke-width="1" />
+
+    <!-- Satellite Nodes -->
+    <circle cx="40" cy="40" r="8" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5" />
+    <circle cx="40" cy="40" r="3" fill="#06b6d4" />
+
+    <circle cx="110" cy="20" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="110" cy="20" r="2.5" fill="#38bdf8" />
+
+    <circle cx="180" cy="50" r="9" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5" />
+    <circle cx="180" cy="50" r="3.5" fill="#a78bfa" />
+
+    <circle cx="150" cy="110" r="7" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="150" cy="110" r="2.5" fill="#38bdf8" />
+
+    <circle cx="80" cy="130" r="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="80" cy="130" r="3" fill="#10b981" />
+  </g>
+</svg>
