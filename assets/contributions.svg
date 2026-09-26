@@ -17,66 +17,69 @@
     }
     .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; font-weight: 600; fill: #cbd5e1; }
     .text-muted { font-family: "SF Mono", Consolas, monospace; font-size: 10px; fill: #64748b; }
+    .text-stat { font-family: "SF Mono", Consolas, monospace; font-size: 11px; font-weight: 600; fill: #38bdf8; }
     .col-0 { animation-delay: 0ms; }
-    .col-1 { animation-delay: 22ms; }
-    .col-2 { animation-delay: 44ms; }
-    .col-3 { animation-delay: 66ms; }
-    .col-4 { animation-delay: 88ms; }
-    .col-5 { animation-delay: 110ms; }
-    .col-6 { animation-delay: 132ms; }
-    .col-7 { animation-delay: 154ms; }
-    .col-8 { animation-delay: 176ms; }
-    .col-9 { animation-delay: 198ms; }
-    .col-10 { animation-delay: 220ms; }
-    .col-11 { animation-delay: 242ms; }
-    .col-12 { animation-delay: 264ms; }
-    .col-13 { animation-delay: 286ms; }
-    .col-14 { animation-delay: 308ms; }
-    .col-15 { animation-delay: 330ms; }
-    .col-16 { animation-delay: 352ms; }
-    .col-17 { animation-delay: 374ms; }
-    .col-18 { animation-delay: 396ms; }
-    .col-19 { animation-delay: 418ms; }
-    .col-20 { animation-delay: 440ms; }
-    .col-21 { animation-delay: 462ms; }
-    .col-22 { animation-delay: 484ms; }
-    .col-23 { animation-delay: 506ms; }
-    .col-24 { animation-delay: 528ms; }
-    .col-25 { animation-delay: 550ms; }
-    .col-26 { animation-delay: 572ms; }
-    .col-27 { animation-delay: 594ms; }
-    .col-28 { animation-delay: 616ms; }
-    .col-29 { animation-delay: 638ms; }
-    .col-30 { animation-delay: 660ms; }
-    .col-31 { animation-delay: 682ms; }
-    .col-32 { animation-delay: 704ms; }
-    .col-33 { animation-delay: 726ms; }
-    .col-34 { animation-delay: 748ms; }
-    .col-35 { animation-delay: 770ms; }
-    .col-36 { animation-delay: 792ms; }
-    .col-37 { animation-delay: 814ms; }
-    .col-38 { animation-delay: 836ms; }
-    .col-39 { animation-delay: 858ms; }
-    .col-40 { animation-delay: 880ms; }
-    .col-41 { animation-delay: 902ms; }
-    .col-42 { animation-delay: 924ms; }
-    .col-43 { animation-delay: 946ms; }
-    .col-44 { animation-delay: 968ms; }
-    .col-45 { animation-delay: 990ms; }
-    .col-46 { animation-delay: 1012ms; }
-    .col-47 { animation-delay: 1034ms; }
-    .col-48 { animation-delay: 1056ms; }
-    .col-49 { animation-delay: 1078ms; }
-    .col-50 { animation-delay: 1100ms; }
-    .col-51 { animation-delay: 1122ms; }
-    .col-52 { animation-delay: 1144ms; }
+    .col-1 { animation-delay: 20ms; }
+    .col-2 { animation-delay: 40ms; }
+    .col-3 { animation-delay: 60ms; }
+    .col-4 { animation-delay: 80ms; }
+    .col-5 { animation-delay: 100ms; }
+    .col-6 { animation-delay: 120ms; }
+    .col-7 { animation-delay: 140ms; }
+    .col-8 { animation-delay: 160ms; }
+    .col-9 { animation-delay: 180ms; }
+    .col-10 { animation-delay: 200ms; }
+    .col-11 { animation-delay: 220ms; }
+    .col-12 { animation-delay: 240ms; }
+    .col-13 { animation-delay: 260ms; }
+    .col-14 { animation-delay: 280ms; }
+    .col-15 { animation-delay: 300ms; }
+    .col-16 { animation-delay: 320ms; }
+    .col-17 { animation-delay: 340ms; }
+    .col-18 { animation-delay: 360ms; }
+    .col-19 { animation-delay: 380ms; }
+    .col-20 { animation-delay: 400ms; }
+    .col-21 { animation-delay: 420ms; }
+    .col-22 { animation-delay: 440ms; }
+    .col-23 { animation-delay: 460ms; }
+    .col-24 { animation-delay: 480ms; }
+    .col-25 { animation-delay: 500ms; }
+    .col-26 { animation-delay: 520ms; }
+    .col-27 { animation-delay: 540ms; }
+    .col-28 { animation-delay: 560ms; }
+    .col-29 { animation-delay: 580ms; }
+    .col-30 { animation-delay: 600ms; }
+    .col-31 { animation-delay: 620ms; }
+    .col-32 { animation-delay: 640ms; }
+    .col-33 { animation-delay: 660ms; }
+    .col-34 { animation-delay: 680ms; }
+    .col-35 { animation-delay: 700ms; }
+    .col-36 { animation-delay: 720ms; }
+    .col-37 { animation-delay: 740ms; }
+    .col-38 { animation-delay: 760ms; }
+    .col-39 { animation-delay: 780ms; }
+    .col-40 { animation-delay: 800ms; }
+    .col-41 { animation-delay: 820ms; }
+    .col-42 { animation-delay: 840ms; }
+    .col-43 { animation-delay: 860ms; }
+    .col-44 { animation-delay: 880ms; }
+    .col-45 { animation-delay: 900ms; }
+    .col-46 { animation-delay: 920ms; }
+    .col-47 { animation-delay: 940ms; }
+    .col-48 { animation-delay: 960ms; }
+    .col-49 { animation-delay: 980ms; }
+    .col-50 { animation-delay: 1000ms; }
+    .col-51 { animation-delay: 1020ms; }
+    .col-52 { animation-delay: 1040ms; }
   </style>
   <rect width="880" height="160" rx="12" fill="url(#bg)" stroke="#1e293b" stroke-width="1.2" />
   <g transform="translate(30, 26)">
     <circle cx="6" cy="6" r="4" fill="#38bdf8" />
     <circle cx="6" cy="6" r="8" fill="#38bdf8" fill-opacity="0.25" />
     <text x="22" y="10" class="text-title">Contribution Calendar</text>
-    <text x="180" y="10" class="text-muted">• Activity &amp; Commit History</text>
+    <text x="180" y="10" class="text-muted">• </text>
+    <text x="192" y="10" class="text-stat">891+ Contributions</text>
+    <text x="350" y="10" class="text-muted">(Public &amp; Private Systems Engineering)</text>
   </g>
   <text x="65.0" y="52" class="text-muted">Oct</text>
   <text x="123.0" y="52" class="text-muted">Nov</text>
@@ -106,19 +109,19 @@
     <rect x="79.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="79.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="79.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="79.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="79.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="79.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="79.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="79.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-2">
     <rect x="94.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="94.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="94.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="94.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="94.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="94.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="94.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="94.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="94.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="94.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="94.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-3">
     <rect x="108.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -132,11 +135,11 @@
   <g class="col col-4">
     <rect x="123.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="123.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="123.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="123.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="123.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="123.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="123.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="123.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="123.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="123.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="123.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-5">
     <rect x="137.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -150,15 +153,15 @@
   <g class="col col-6">
     <rect x="152.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="152.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="152.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="152.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="152.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="152.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="152.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="152.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="152.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-7">
     <rect x="166.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="166.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="166.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="166.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="166.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="166.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -169,17 +172,17 @@
     <rect x="181.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="181.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="181.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="181.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="181.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="181.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="181.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="181.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-9">
-    <rect x="195.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="195.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="195.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="195.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="195.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="195.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="195.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="195.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="195.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
@@ -194,18 +197,18 @@
   </g>
   <g class="col col-11">
     <rect x="224.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="224.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="224.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="224.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="224.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="224.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="224.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="224.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="224.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="224.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-12">
     <rect x="239.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="239.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="239.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="239.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="239.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="239.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="239.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="239.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="239.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -214,18 +217,18 @@
     <rect x="253.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="253.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="253.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="253.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="253.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="253.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="253.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="253.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="253.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-14">
     <rect x="268.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="268.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="268.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="268.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="268.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="268.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="268.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="268.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="268.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="268.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-15">
@@ -238,12 +241,12 @@
     <rect x="282.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-16">
-    <rect x="297.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="297.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="297.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="297.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="297.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="297.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="297.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="297.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="297.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-17">
@@ -259,25 +262,25 @@
     <rect x="326.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="326.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="326.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="326.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="326.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="326.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="326.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="326.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="326.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="326.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-19">
-    <rect x="340.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="340.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="340.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="340.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="340.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="340.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="340.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="340.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="340.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="340.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="340.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="340.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-20">
     <rect x="355.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="355.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="355.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="355.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="355.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="355.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="355.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="355.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="355.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="355.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -285,18 +288,18 @@
   <g class="col col-21">
     <rect x="369.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="369.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="369.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="369.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="369.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="369.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="369.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="369.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="369.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-22">
     <rect x="384.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="384.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="384.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="384.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="384.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
-    <rect x="384.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="384.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="384.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="384.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
@@ -310,61 +313,61 @@
     <rect x="398.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-24">
-    <rect x="413.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="413.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="413.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="413.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="413.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="413.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="413.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="413.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="413.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="413.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="413.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
   </g>
   <g class="col col-25">
     <rect x="427.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="427.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="427.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="427.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="427.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="427.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="427.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="427.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="427.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="427.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="427.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-26">
-    <rect x="442.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="442.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="442.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="442.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="442.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="442.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="442.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="442.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="442.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="442.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="442.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="442.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-27">
     <rect x="456.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="456.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="456.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="456.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="456.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="456.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="456.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="456.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="456.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="456.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="456.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-28">
-    <rect x="471.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="471.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="471.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="471.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="471.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="471.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="471.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="471.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="471.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-29">
     <rect x="485.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="485.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="485.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="485.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="485.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="485.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="485.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="485.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#7c3aed" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="485.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="485.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-30">
-    <rect x="500.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="500.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="500.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="500.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="500.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -374,44 +377,44 @@
   </g>
   <g class="col col-31">
     <rect x="514.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="514.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="514.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="514.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="514.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="514.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="514.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="514.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="514.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="514.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="514.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="514.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-32">
     <rect x="529.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="529.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="529.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="529.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="529.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="529.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="529.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="529.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="529.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="529.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="529.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-33">
-    <rect x="543.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="543.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="543.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="543.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="543.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="543.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="543.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="543.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="543.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="543.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="543.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
   </g>
   <g class="col col-34">
     <rect x="558.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="558.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="558.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="558.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="558.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="558.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="558.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="558.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="558.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="558.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="558.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="558.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="558.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-35">
     <rect x="572.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="572.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="572.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="572.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="572.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="572.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="572.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -421,17 +424,17 @@
     <rect x="587.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="587.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="587.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="587.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="587.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="587.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="587.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="587.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="587.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="587.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-37">
     <rect x="601.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="601.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="601.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="601.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
-    <rect x="601.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="601.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="601.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="601.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="601.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="601.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
@@ -446,19 +449,19 @@
   </g>
   <g class="col col-39">
     <rect x="630.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="630.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="630.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="630.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="630.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="630.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="630.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="630.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="630.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
   </g>
   <g class="col col-40">
-    <rect x="645.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="645.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="645.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="645.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="645.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="645.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="645.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="645.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="645.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="645.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="645.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
@@ -473,15 +476,15 @@
   </g>
   <g class="col col-42">
     <rect x="674.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="674.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="674.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="674.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="674.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="674.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="674.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="674.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="674.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-43">
-    <rect x="688.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="688.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="688.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="688.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="688.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -490,19 +493,19 @@
     <rect x="688.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-44">
-    <rect x="703.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="703.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="703.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="703.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="703.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="703.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="703.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="703.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="703.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="703.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-45">
     <rect x="717.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="717.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="717.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="717.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="717.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="717.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="717.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="717.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="717.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -510,24 +513,24 @@
   <g class="col col-46">
     <rect x="732.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="732.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="732.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="732.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="732.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="732.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="732.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="732.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="732.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-47">
     <rect x="746.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="746.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="746.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="746.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="746.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="746.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="746.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="746.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="746.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
     <rect x="746.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
   </g>
   <g class="col col-48">
     <rect x="761.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="761.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="761.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="761.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="761.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="761.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -538,16 +541,16 @@
     <rect x="775.5" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="775.5" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="775.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="775.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="775.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="775.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
+    <rect x="775.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <rect x="775.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="775.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="775.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
   </g>
   <g class="col col-50">
-    <rect x="790.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="790.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="790.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="790.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="790.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="790.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="790.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="790.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="790.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
@@ -558,24 +561,23 @@
     <rect x="804.5" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="804.5" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="804.5" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="804.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="804.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
+    <rect x="804.5" y="117.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
+    <rect x="804.5" y="129.0" width="9.5" height="9.5" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
   </g>
   <g class="col col-52">
     <rect x="819.0" y="60.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="819.0" y="71.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="819.0" y="83.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="819.0" y="94.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="819.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="819.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
-    <rect x="819.0" y="129.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="819.0" y="106.0" width="9.5" height="9.5" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
+    <rect x="819.0" y="117.5" width="9.5" height="9.5" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
   </g>
   <g transform="translate(680, 145)">
     <text x="0" y="8" class="text-muted">Less</text>
     <rect x="32" y="0" width="9" height="9" rx="2" fill="#161e2e" stroke="#222f44" stroke-width="0.8" />
     <rect x="45" y="0" width="9" height="9" rx="2" fill="#1e3a8a" stroke="#2563eb" stroke-width="0.8" />
     <rect x="58" y="0" width="9" height="9" rx="2" fill="#2563eb" stroke="#3b82f6" stroke-width="0.8" />
-    <rect x="71" y="0" width="9" height="9" rx="2" fill="#7c3aed" stroke="#a78bfa" stroke-width="0.8" />
+    <rect x="71" y="0" width="9" height="9" rx="2" fill="#8b5cf6" stroke="#a78bfa" stroke-width="0.8" />
     <rect x="84" y="0" width="9" height="9" rx="2" fill="#38bdf8" stroke="#7dd3fc" stroke-width="0.8" />
     <text x="104" y="8" class="text-muted">More</text>
   </g>
