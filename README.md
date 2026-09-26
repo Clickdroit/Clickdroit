@@ -232,17 +232,7 @@
 
 <br />
 
-<!-- ===================================================================== -->
-<!-- CONTRIBUTION CALENDAR ANIMATION (PROGRESSIVE APPEARANCE)              -->
-<!-- ===================================================================== -->
 
-### 📈 Contribution History
-
-<div align="center">
-  <img src="assets/contributions.svg" alt="Animated Contribution Calendar" width="100%" />
-</div>
-
-<br />
 
 ---
 
