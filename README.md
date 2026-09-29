@@ -55,98 +55,157 @@
 <!-- SELECTED WORK / PROJECTS & EXPERIMENTS                                -->
 <!-- ===================================================================== -->
 
-## 🚀 Projects & Experiments
+## 🚀 Featured Public Projects
 
-> A curated selection of systems, network tools, and security platforms built across public and private engineering repositories.
+> A curated selection of systems, network tools, and security platforms built and open-sourced across my repositories.
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<p align="right"><img src="https://img.shields.io/badge/Status-🔒_Private_Project-1e293b?style=flat-square&logo=git&logoColor=94a3b8" alt="Private Project" /></p>
-<h3>🔍 Local OSINT Investigation Engine</h3>
-<p>Local-first personal digital footprint audit and identity correlation platform engineered with zero cloud dependencies.</p>
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>🛍️ End-to-End E-Commerce Platform</h3>
+<p>Production-grade e-commerce backend & frontend with Stripe payment lifecycle, Redis caching, and async job queues.</p>
 <ul>
-<li><strong>Architecture:</strong> Adaptive investigation engine with atomic budget reservation, formal action state machines, and loop-prevention heuristics.</li>
-<li><strong>Security:</strong> Tamper-evident hash chain preserving audit integrity and source reliability scoring.</li>
-<li><strong>Quality:</strong> <strong>700+ automated tests</strong> (100% pass rate).</li>
-</ul>
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-</p>
-<p><em>Source: Private Repository</em></p>
-</td>
-<td width="50%" valign="top">
-<p align="right"><img src="https://img.shields.io/badge/Status-🔒_Private_Project-1e293b?style=flat-square&logo=git&logoColor=94a3b8" alt="Private Project" /></p>
-<h3>🌐 MineScope — Distributed Telemetry</h3>
-<p>High-throughput discovery, DNS SRV resolution, and real-time Server List Ping (SLP) monitoring platform.</p>
-<ul>
-<li><strong>Pipeline:</strong> Asynchronous discovery engine with intelligent SRV fallback and binary SLP protocol handshake parser.</li>
-<li><strong>Throughput:</strong> Decoupled ingestion with <strong>Redis BullMQ worker pools</strong> feeding PostgreSQL storage.</li>
-<li><strong>Interface:</strong> Live analytics dashboard with sub-millisecond status polling and MOTD rich-text rendering.</li>
+<li><strong>Backend:</strong> Node.js, Express, PostgreSQL, Redis, Stripe, Docker.</li>
+<li><strong>Frontend:</strong> Next.js 15, TypeScript, Tailwind CSS with reactive cart state.</li>
+<li><strong>DevOps:</strong> Containerized multi-service deployment with Docker & Nginx.</li>
 </ul>
 <p>
 <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<br /><br />
+<a href="https://github.com/Clickdroit/E-commerce-API"><strong>View API Repository →</strong></a> &nbsp;|&nbsp; <a href="https://github.com/Clickdroit/E-commerce-Frontend"><strong>View Frontend →</strong></a>
 </p>
-<p><em>Source: Private Repository</em></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
-<p align="right"><img src="https://img.shields.io/badge/Status-🔒_Private_Project-1e293b?style=flat-square&logo=git&logoColor=94a3b8" alt="Private Project" /></p>
-<h3>🛡️ Cyber Posture Assessment Platform</h3>
-<p>Automated network exposure evaluation platform performing credentialed audits on explicitly authorized network scopes.</p>
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>🛡️ OSINT & Threat Intelligence Hub</h3>
+<p>Asynchronous intelligence tool and automated OSINT investigation engine deployable via Docker.</p>
 <ul>
-<li><strong>Engine:</strong> Rule-based detection against <strong>22 security rules</strong> (Telnet, SMB, Redis, MySQL exposed interfaces).</li>
-<li><strong>Audit Diff:</strong> Automated differential analysis comparing successive scans to track port exposure drift.</li>
-<li><strong>Security:</strong> Weighted posture scoring algorithm (0–100), JWT role-based access, and PDF/HTML audit reports.</li>
+<li><strong>Engine:</strong> Threat monitoring, alias correlation, and automated digital footprint auditing.</li>
+<li><strong>Workers:</strong> Asynchronous task distribution, background queue processing, and Nginx reverse proxy.</li>
+<li><strong>Compliance:</strong> Designed for ethical intelligence gathering and authorized audits.</li>
 </ul>
 <p>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-<img src="https://img.shields.io/badge/Nmap-Scanner-0284c7?style=flat-square" alt="Nmap" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+<br /><br />
+<a href="https://github.com/Clickdroit/OSINT"><strong>View OSINT Hub →</strong></a> &nbsp;|&nbsp; <a href="https://github.com/Clickdroit/cyberrr"><strong>View Cyberrr →</strong></a>
 </p>
-<p><em>Source: Private Repository</em></p>
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>🅿️ Cirpark — Intelligent Parking & Telemetry</h3>
+<p>Complete smart parking supervision system communicating with physical Cirpark sensors via UDP datagrams.</p>
+<ul>
+<li><strong>Networking:</strong> Real-time UDP socket client decoding hardware sensor datagrams.</li>
+<li><strong>API REST:</strong> Full PHP / PDO RESTful endpoints (`GET`, `POST`, `PUT`, `DELETE`).</li>
+<li><strong>Supervision:</strong> Interactive visual floor map & live occupancy analytics (Chart.js).</li>
+</ul>
+<p>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/UDP_Sockets-0284c7?style=flat-square" alt="UDP Sockets" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js" />
+<br /><br />
+<a href="https://github.com/Clickdroit/Cirpark"><strong>View Cirpark Repository →</strong></a>
+</p>
 </td>
 <td width="50%" valign="top">
-<p align="right"><img src="https://img.shields.io/badge/Status-🔒_Private_Project-1e293b?style=flat-square&logo=git&logoColor=94a3b8" alt="Private Project" /></p>
-<h3>📡 Cirpark UDP Sniffer & Telemetry</h3>
-<p>Low-level network telemetry platform capturing and decoding raw UDP datagrams from parking sensor networks.</p>
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>⚔️ CLDAC — Minecraft Anti-Cheat Engine</h3>
+<p>Real-time server-side heuristic cheat detection engine for Minecraft Spigot.</p>
 <ul>
-<li><strong>Networking:</strong> Custom <strong>C++ UDP socket listener</strong> capturing binary sensor frames in real time.</li>
-<li><strong>Telemetry:</strong> Live packet decoding, state synchronization, and historical occupancy tracking.</li>
-<li><strong>Dashboard:</strong> Event-driven web interface providing instant sensor status visualization.</li>
+<li><strong>Analysis:</strong> Deep packet inspection, movement physics calculations, and anomaly heuristics.</li>
+<li><strong>Architecture:</strong> Modular check managers (`AlertManager`, `CheckType`) designed for high-concurrency event loops.</li>
+<li><strong>Performance:</strong> Sub-tick validation with minimal server overhead.</li>
+</ul>
+<p>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Spigot-ED8106?style=flat-square&logo=spigotmc&logoColor=white" alt="Spigot" />
+<img src="https://img.shields.io/badge/Security-Anti--Cheat-ef4444?style=flat-square" alt="Anti-Cheat" />
+<br /><br />
+<a href="https://github.com/Clickdroit/CLDAC"><strong>View CLDAC Repository →</strong></a> &nbsp;|&nbsp; <a href="https://github.com/Clickdroit/CLDAPI"><strong>View CLDAPI →</strong></a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>🤖 Zenkai & TicketBot Discord Architecture</h3>
+<p>Production-grade Discord bots built with Java 21, JDA 5.2, HikariCP connection pooling, and web dashboards.</p>
+<ul>
+<li><strong>Concurrency:</strong> Multithreaded command dispatchers with HikariCP MySQL pools.</li>
+<li><strong>Dashboard:</strong> Integrated web administration dashboard and ticket support lifecycles.</li>
+<li><strong>Quality:</strong> Comprehensive architecture documentation and MIT open-source license.</li>
+</ul>
+<p>
+<img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21" />
+<img src="https://img.shields.io/badge/JDA_5.2-5865F2?style=flat-square&logo=discord&logoColor=white" alt="JDA" />
+<img src="https://img.shields.io/badge/HikariCP-10b981?style=flat-square" alt="HikariCP" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<br /><br />
+<a href="https://github.com/Clickdroit/Discord-Bot-CLD"><strong>View Zenkai Bot →</strong></a> &nbsp;|&nbsp; <a href="https://github.com/Clickdroit/TicketBot"><strong>View TicketBot →</strong></a>
+</p>
+</td>
+<td width="50%" valign="top">
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>📊 FranceStats — Fuel Open Data Analytics</h3>
+<p>Real-time analytics and tracking platform parsing French government Open Data fuel price feeds.</p>
+<ul>
+<li><strong>Data Pipeline:</strong> High-throughput XML parsing and JSON transformation pipeline.</li>
+<li><strong>Caching:</strong> Local disk-backed caching layer optimizing API calls against large government datasets.</li>
+<li><strong>Architecture:</strong> Java 17 Maven project with clean modular architecture.</li>
+</ul>
+<p>
+<img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 17" />
+<img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" alt="Maven" />
+<img src="https://img.shields.io/badge/Open_Data-Gov_France-000091?style=flat-square" alt="Open Data" />
+<br /><br />
+<a href="https://github.com/Clickdroit/FranceStats"><strong>View FranceStats Repository →</strong></a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+<p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
+<h3>⚡ Low-Level UDP Client & Server (C++)</h3>
+<p>System-level UDP networking implementation featuring custom datagram exchange and CMake build workflows.</p>
+<ul>
+<li><strong>Networking:</strong> Raw socket programming in C++ for fast, low-latency UDP communications.</li>
+<li><strong>Tooling:</strong> CMake cross-platform build system and structured roadmap.</li>
 </ul>
 <p>
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/UDP_Sockets-0284c7?style=flat-square" alt="UDP Sockets" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake" />
+<img src="https://img.shields.io/badge/UDP_Sockets-0284c7?style=flat-square" alt="Sockets" />
+<br /><br />
+<a href="https://github.com/Clickdroit/M07CPP"><strong>View M07CPP Repository →</strong></a>
 </p>
-<p><em>Source: Private Repository</em></p>
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 <p align="right"><img src="https://img.shields.io/badge/Status-🌐_Public_Project-10b981?style=flat-square&logo=github&logoColor=white" alt="Public Project" /></p>
-<h3>⚡ DevPulse — Network Latency & Ping Dashboard</h3>
-<p>Zero-dependency, client-side endpoint availability monitor and real-time HTTP latency testing interface.</p>
+<h3>⚡ DevPulse & GitHub Doc Generator</h3>
+<p>Interactive web tools: zero-dependency endpoint latency monitor & Next.js GitHub documentation generator.</p>
 <ul>
-<li><strong>Measurement:</strong> Real-time fetch latency measurement with dark-themed reactive UI.</li>
-<li><strong>Design:</strong> Built with pure Vanilla web technologies for instant execution without build tooling or dependencies.</li>
+<li><strong>DevPulse:</strong> Real-time HTTP ping & endpoint availability tester.</li>
+<li><strong>Doc Generator:</strong> Next.js & Tailwind application generating documentation for open-source repositories.</li>
 </ul>
 <p>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-&nbsp;&nbsp;
-<a href="https://github.com/Clickdroit/dashboard"><strong>View Public Repository →</strong></a>
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+<br /><br />
+<a href="https://github.com/Clickdroit/dashboard"><strong>View DevPulse →</strong></a> &nbsp;|&nbsp; <a href="https://github.com/Clickdroit/github-doc-generator"><strong>View Doc Generator →</strong></a>
 </p>
 </td>
 </tr>
@@ -231,8 +290,6 @@
 </div>
 
 <br />
-
-
 
 ---
 
